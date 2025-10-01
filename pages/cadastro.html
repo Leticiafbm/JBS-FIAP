@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swift - Cadastre-se</title>
+  <link rel="stylesheet" href="/assets/styles/cadastro.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="img-wrapper">
+      <img src="/assets/icons/2024-logo-swift-primary.svg" alt="logo swift" class="logo-swift">
+    </div>
+
+
+    <div class="header-container">
+      <div class="middle-header">
+        <div class="img-wrapper">
+          <a href="">
+            <img src="/assets/images/rnk-vem-de-zap.gif" alt="link para o whatsapp" class="gif-whatsapp">
+          </a>
+        </div>
+        <nav class="header-nav">
+          <div class="links-header">
+            <a class="link-title" href="">SUPER KITS</a>
+            <a class="link-desc" href="">Combinações exclusivas</a>
+          </div>
+          <div class="links-header">
+            <a class="link-title" href="">CATEGORIAS</a>
+            <a class="link-desc" href="">Veja nossos produtos</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="end-header">
+
+        <div class="form">
+          <input type="text">
+        </div>
+
+        <div class="icons-container">
+          <a href="">
+            <img src="/assets/icons/search-svgrepo-com.svg" alt="procurar" class="nav-icons">
+          </a>
+          <a href="">
+            <img src="/assets/icons/user-fill-svgrepo-com.svg" alt="usuário" class="nav-icons">
+          </a>
+          <a href="">
+            <img src="/assets/icons/cart-shopping-solid-svgrepo-com.svg" alt="carro de compras" class="nav-icons">
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <div class="register-container">
+      <h1 class="register-title">CADASTRE-SE <span>AQUI</span></h1>
+      
+      <form>
+        <div class="form-group">
+          <label for="email" class="form-label">Email</label>
+          <input 
+            type="email" 
+            id="email" 
+            class="form-input" 
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="name" class="form-label">Primeiro Nome</label>
+          <input 
+            type="text" 
+            id="name" 
+            class="form-input" 
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="lastname" class="form-label">Último Nome</label>
+          <input 
+            type="text" 
+            id="lastname" 
+            class="form-input" 
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="cpf" class="form-label">CPF</label>
+          <input 
+            type="text" 
+            id="cpf" 
+            class="form-input" 
+            required
+          >
+        </div>
+
+        <div class="form-group form-row">
+          <div>
+            <label for="phone" class="form-label">Telefone Celular</label>
+            <input 
+              type="tel" 
+              id="phone" 
+              class="form-input" 
+              required
+            >
+          </div>
+          <div>
+            <label for="birthdate" class="form-label">Data de Nascimento</label>
+            <input 
+              type="date" 
+              id="birthdate" 
+              class="form-input" 
+              required
+            >
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="password" class="form-label">Cadastre uma Senha</label>
+          <input 
+            type="password" 
+            id="password" 
+            class="form-input" 
+            required
+          >
+          <p class="form-hint">A senha deve conter 8+ caracteres, incluindo 1 número, 1 maiúscula , 1 minúscula e 1 caractere especial.</p>
+        </div>
+
+        <div class="form-group">
+          <label for="password" class="form-label">Repetir senha</label>
+          <input 
+            type="password" 
+            id="password" 
+            class="form-input" 
+            required
+          >
+        </div>
+
+        <div class="checkbox-group">
+          <input type="checkbox" id="terms" required>
+          <label for="terms" class="checkbox-label">
+            Li e aceito a <a href="#">Política de privacidade</a>, os <a href="#">Termos e Condições</a> e concordo em receber as ofertas e novidades por e-mail.
+          </label>
+        </div>
+
+        <div class="checkbox-group">
+          <input type="checkbox" id="terms">
+          <label for="terms" class="checkbox-label">
+            Aceito participar do programa Sócio Swift
+          </label>
+        </div>
+
+        <div class="checkbox-group">
+          <input type="checkbox" id="terms">
+          <label for="terms" class="checkbox-label">
+            Quero receber comunicações da Swift
+          </label>
+        </div>
+
+        <button type="submit" class="btn-submit">
+          Cadastrar
+        </button>
+      </form>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <!-- Coluna 1: Canal de Vendas -->
+      <div class="footer-column">
+        <img src="/assets/icons/2024-logo-swift-primary.svg" alt="Swift Logo" class="footer-logo">
+        <h3>Canal de vendas</h3>
+        <ul>
+          <li><a href="#">Compre pelo Whatsapp</a></li>
+          <li><a href="#">Televendas (11) 4020-8588</a></li>
+          <li><a href="#">Horário de atendimento</a></li>
+          <li><a href="#">Segunda à Domingo das 07h30 às 22h</a></li>
+        </ul>
+      </div>
+
+      <!-- Coluna 2: Atendimento -->
+      <div class="footer-column">
+        <h3>Atendimento</h3>
+        <ul>
+          <li><a href="#">Perguntas Mais Frequentes</a></li>
+          <li><a href="#">Política de Privacidade</a></li>
+          <li><a href="#">Trocas e Devoluções</a></li>
+          <li><a href="#">Regulamento geral (promoções)</a></li>
+          <li><a href="#">Termos e Condições</a></li>
+          <li><a href="#">Trabalhe na Swift</a></li>
+        </ul>
+      </div>
+
+      <!-- Coluna 3: Informações -->
+      <div class="footer-column">
+        <h3>Onde estamos</h3>
+        <ul>
+          <li><a href="#">Mapa do Site</a></li>
+          <li><a href="#">Nossas Lojas</a></li>
+          <li><a href="#">Política Swift</a></li>
+          <li><a href="#">Política de Cookies</a></li>
+          <li><a href="#">Grupo Swift</a></li>
+          <li><a href="#">Blog Swift</a></li>
+          <li><a href="#">Área LGPD</a></li>
+          <li><a href="#">Fale Conosco</a></li>
+        </ul>
+      </div>
+
+      <!-- Coluna 4: E-Swift -->
+      <div class="footer-column">
+        <h3>E-Swift</h3>
+        <ul>
+          <li><a href="#">Dúvidas</a></li>
+          <li><a href="#">Entregas e Prazos</a></li>
+        </ul>
+
+        <h3 style="margin-top: 24px;">Redes Sociais</h3>
+        <div class="social-icons">
+          <div class="social-icon">f</div>
+          <div class="social-icon">in</div>
+          <div class="social-icon">📷</div>
+        </div>
+
+        <h3 style="margin-top: 24px;">Formas de Pagamento</h3>
+        <div class="payment-methods">
+          <div class="payment-icon">💳</div>
+          <div class="payment-icon">💳</div>
+          <div class="payment-icon">💳</div>
+          <div class="payment-icon">💳</div>
+          <div class="payment-icon">PIX</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 Swift. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
