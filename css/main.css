@@ -1,0 +1,56 @@
+:root{
+  --brand:#E6482E;         
+  --brand-700:#C83E28;
+  --ink:#1D1D1F;
+  --muted:#6B6B6B;
+  --surface:#FFFFFF;
+  --bg:#FAFAFA;
+  --radius:14px;
+  --shadow-sm:0 6px 18px rgba(0,0,0,.06);
+  --shadow-md:0 10px 30px rgba(0,0,0,.08);
+}
+
+html{scroll-behavior:smooth}
+body{
+  font-family:"Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, Helvetica, sans-serif;
+  color:var(--ink);
+  background:var(--bg);
+  text-rendering:optimizeLegibility;
+}
+
+img{display:block;max-width:100%;height:auto}
+
+a{color:var(--brand);text-decoration:underline}
+a:hover{color:var(--brand-700)}
+/* Classes bootstrap extras */
+.roundedfx {
+  border-radius: 40px;
+}
+.btn-brand{
+  --bs-btn-color:#fff;
+  --bs-btn-bg:var(--brand);
+  --bs-btn-border-color:var(--brand);
+  --bs-btn-hover-bg:var(--brand-700);
+  --bs-btn-hover-border-color:var(--brand-700);
+  --bs-btn-focus-shadow-rgb:230,72,46;
+  border-radius:var(--radius);
+  padding:.65rem 1.1rem;
+  font-weight:600;
+}
+
+.form-control,
+.input-group-text,
+.btn{border-radius:12px}
+
+.form-control:focus{
+  border-color:var(--brand);
+  box-shadow:0 0 0 .2rem rgba(230,72,46,.15);
+}
+
+#cartCount.badge{font-weight:700}
+
+
+.text-muted-2{color:var(--muted)!important}
+.rounded-2xl{border-radius:var(--radius)!important}
+.shadow-soft{box-shadow:var(--shadow-sm)}
+

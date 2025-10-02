@@ -1,0 +1,144 @@
+{
+  "almondega": {
+    "name": "Almôndegas Bovinas Swift 500g",
+    "price": 18.90,
+    "compare_at_price": 0,
+    "pack": "Embalagem 500g",
+    "rating": 4.8,
+    "category": "Bovinos",
+    "images": [
+      "assets/img/produtos/almondega-hero.jpg",
+      "assets/img/produtos/almondega-hero2.jpg"
+    ]
+  },
+
+  "filezinho": {
+    "name": "Filezinho Sassami 1kg",
+    "price": 21.90,
+    "compare_at_price": 20.90,
+    "pack": "Embalagem 1kg",
+    "rating": 4.7,
+    "category": "Aves",
+    "images": [
+      "assets/img/produtos/filezinho.jpg"
+    ]
+  },
+
+  "peito-desfiado": {
+    "name": "Peito de frango temperado desfiado",
+    "price": 18.90,
+    "compare_at_price": 18.90,
+    "pack": "Embalagem 1kg",
+    "rating": 4.6,
+    "category": "Aves",
+    "images": [
+      "assets/img/produtos/peito-desfiado.jpg"
+    ]
+  },
+
+  "file-peito": {
+    "name": "Filé de peito linha mais 1kg",
+    "price": 22.50,
+    "compare_at_price": 20.90,
+    "pack": "Embalagem 1kg",
+    "rating": 4.7,
+    "category": "Aves",
+    "images": [
+      "assets/img/produtos/file-peito.jpg"
+    ]
+  },
+
+  "coxinha": {
+    "name": "Coxinha da asa temperada",
+    "price": 19.90,
+    "compare_at_price": 18.50,
+    "pack": "Embalagem 1kg",
+    "rating": 4.6,
+    "category": "Aves",
+    "images": [
+      "assets/img/produtos/coxinha.jpg"
+    ]
+  },
+
+  "frango-passarinho-2kg": {
+    "name": "Frango a Passarinho LAR 2kg",
+    "price": 24.21,
+    "compare_at_price": 26.90,
+    "pack": "Embalagem 2kg",
+    "rating": 4.6,
+    "category": "Aves",
+    "images": [
+      "assets/img/produtos/frangolar.jpg"
+    ]
+  },
+
+  "fettuccine-350g": {
+    "name": "Fettuccine c/ Peru e Brócolis",
+    "price": 8.42,
+    "compare_at_price": 9.90,
+    "pack": "Embalagem 350g",
+    "rating": 4.7,
+    "category": "Prontos para comer",
+    "images": [
+      "assets/img/produtos/frangofetuccine.jpg"
+    ]
+  },
+
+  "linguica-700g": {
+    "name": "Linguiça Toscana Swift 700g",
+    "price": 14.32,
+    "compare_at_price": 17.90,
+    "pack": "Embalagem 700g",
+    "rating": 4.6,
+    "category": "Linguiças",
+    "images": [
+      "assets/img/produtos/linguicatoscana.jpg"
+    ]
+  },
+  "cubospanela": {
+    "name": "Carne de Panela em Cubos Swift 500g",
+    "price": 20.90,
+    "compare_at_price": 27.99,
+    "pack": "Embalagem 500g",
+    "rating": 4.9,
+    "category": "Bovinos",
+    "images": [
+      "assets/img/produtos/carnepanela.jpg"
+    ]
+  },
+  "ostrinhasobrecoxa": {
+    "name": "Ostrinha da Sobrecoxa Swift 700g",
+    "price": 14.90,
+    "compare_at_price": 20.90,
+    "pack": "Embalagem 700g",
+    "rating": 4.9,
+    "category": "Bovinos",
+    "images": [
+      "assets/img/produtos/ostrinhasobrecoxa.jpg"
+    ]
+  },
+  "filepanga": {
+    "name": "Filé de Panga Swift 500g",
+    "price": 18.50,
+    "compare_at_price": 21.99,
+    "pack": "Embalagem 500g",
+    "rating": 4.8,
+    "category": "Pescados",
+    "images": [
+      "assets/img/produtos/filepanga.jpg"
+    ]
+  },
+  "costelabarbecue": {
+    "name": "Costela Suína ao Molho Barbecue South Caroline Swift de 0,9Kg a 1,6Kg",
+    "price": 39.90,
+    "compare_at_price": 47.99,
+    "pack": "Peso Variável 0,9Kg a 1,6Kg",
+    "rating": 4.9,
+    "category": "Suinos",
+    "images": [
+      "assets/img/produtos/costelasuina.jpg"
+    ]
+  }
+
+  
+}
