@@ -1,3 +1,5 @@
+
+
 📂 Estrutura de Pastas
 
 assets/
@@ -86,5 +88,7 @@ Se usar produto.html, passar ?sku=nome-do-produto na URL, ex.:
 produto.html?sku=filezinho
 
 ou utilizar de data-sku passando a sku e data-card-link para o script inserir o link
+
+
 
 
