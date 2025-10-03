@@ -1,15 +1,10 @@
 
-.login-page::before{
-  content:"";
-  position:fixed;
-  inset:0 0 auto 0;
-  height:68px;                 
-  background:var(--brand);
-  z-index:0;
+
+
+.login-page header{position:relative;
+  z-index:1;
+border: 0 0 5px 0 solid var(--brand);
 }
-
-
-.login-page header{position:relative;z-index:1}
 .login-page main{position:relative;z-index:1}
 
 

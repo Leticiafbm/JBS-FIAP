@@ -118,3 +118,18 @@ $('#globalSearch')?.addEventListener('input', (e)=>{
     }
   });
 })();
+
+//chatbot
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("chatbot-button");
+  const win = document.getElementById("chatbot-window");
+  const close = document.getElementById("chatbot-close");
+
+  btn.addEventListener("click", () => {
+    win.style.display = win.style.display === "flex" ? "none" : "flex";
+  });
+
+  close.addEventListener("click", () => {
+    win.style.display = "none";
+  });
+});
