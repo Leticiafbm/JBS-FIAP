@@ -14,7 +14,6 @@ startTimer('dealTimerHero', 120);
 startTimer('dealTimerList', 115);
 
 (() => {
-  // ====== CONFIG GERAL FUNÇÃO OFERTA ESCASSEZ ======
   const root = document.querySelector('.swift-daily-deal');
   if (!root) return;
   const mEl   = root.querySelector('#dealMin');
